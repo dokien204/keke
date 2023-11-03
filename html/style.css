@@ -1,0 +1,276 @@
+.bettwen{
+    width: 70%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.spacerow{
+    margin-bottom: 20px;
+    
+}
+.demo{
+    background-color: aqua;
+    min-height: 100px;
+}
+.header{
+    background-color: aquamarine;
+    border: 1px solid #568a56;
+    font-size: 1vw;
+    color: rgb(70, 226, 122);
+    border-radius: 5px;
+}
+.header h1{
+    margin: 10px 20px;
+}
+.menu{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.menu ul{
+   padding: 0px 12px;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+}
+.menu ul li a{
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    color: white;
+    font-size: 1.1vw;
+}
+.boxright{
+    float: left;
+    width: 24%;
+}
+.boxleft{
+    float: left;
+    width: 74%;
+}
+.maright{
+    margin-right: 2%;
+}
+.footer{
+    background-color: aquamarine;
+    border: 1px solid #009900;
+    color: blue;
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxtitle{
+    color: #333;
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.boxcontent{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-bottom-right-radius:5px ;
+    border-bottom-left-radius: 5px;
+    min-height: 200px;
+    padding: 20px;
+    height: 300px;
+}
+.boxcontent li{
+    list-style-type: none;
+}
+.boxcontent li a{
+    text-decoration: none;
+    color: #333;
+}
+.boxcontent li a:hover{
+    color: #0653aa;
+}
+.boxcontent2{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    min-height: 200px;
+}
+.boxfooter{
+    padding: 10px;
+    background-color: #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.boxsp{
+    width: 31%;
+    float: left;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+.boxsp span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxsp a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+.boxsp img{
+    width: 100%;
+    height: 200px;
+}
+.sp{
+    width: 100%;
+    gap: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.formlogin{
+    line-height: 150%
+}
+.formlogin input[type='text']{
+    width: 95%;
+    border: 1px solid #333;
+    padding: 5px;
+    border-radius: 3px;
+}
+.formlogin input[type='password']{
+    width: 95%;
+    border: 1px solid #333;
+    padding: 5px;
+    border-radius: 3px;
+}
+.formlogin input[type='submit']{
+    width: 100%;
+    border: 1px solid #333;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+.formlogin input[type='submit']:hover{
+    background-color: gray;
+}
+.danhmuc ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+.danhmuc ul li{
+    padding: 10px 20px;
+    background-color: #eee;
+    border-bottom: 1px solid #666464;
+}
+.danhmuc ul li a{
+    color: #333;
+    text-decoration: none;
+}
+.danhmuc ul li:hover{
+    background-color: #ffffff;
+}
+.danhmuc ul li a:hover{
+    color: #033670;
+}
+.searchsp input[type='text']{
+    width: 100%;
+    margin-left: -3px;
+    border: 1px solid #333;
+    border-radius: 3px;
+    height: 30px;
+}
+.top10{
+    margin-bottom: 5px;
+}
+.top10 img{
+    width: 10%;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+.top10 a{
+    color: black;
+    text-decoration: none;
+}
+.top10 a:hover{
+    color: #0653aa;
+}
+.spc{
+    width: 81.3%;
+    min-height: 350px;
+    
+}
+.headeradmin{
+    background-color: rgb(194, 194, 194);
+    font-size: 1vw;
+    border-radius: 5px;
+}
+.formct input[type='text'],
+.formct input[type='password'],
+.formct input[type='email']
+{
+    width: 95%;
+    border: 1px solid #333;
+    padding: 5px;
+    border-radius: 3px;
+}
+.formct input[type='submit']
+,input[type='reset']
+,input[type='button']{
+    border: 1px solid #535353;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.formct input[type='submit']:hover
+,.formct input[type='reset']:hover
+,.formct input[type='button']:hover{
+    background-color: gray;
+}
+.formds table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+.formds table th{
+    background-color: #666464;
+}
+
+.formds table td{
+    padding: 10px 20px;
+    border: 1px solid #cccbcb;
+}
+/* chi tiet san pham */
+.ctsp{
+    text-align: center;
+    max-width: 100%;
+}
+.ctsp img{
+    width: 200px;
+}
+
+/* sp danh muc */
+/* tim kiem */
+/* mess dang ky */
+.messdk{
+    color: red;
+}
+/* giỏ hàng */
+/* đặt hang thành công */
+
+   
+
+   
